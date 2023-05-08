@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "node node_modules/.bin/ng",
     "start": "node node_modules/.bin/ng serve",
-    "build": "npm intall ; node node_modules/.bin/ng build",
+    "build": "npm install ; node node_modules/.bin/ng build",
     "watch": "node node_modules/.bin/ng --watch --configuration development",
     "test": "node node_modules/.bin/ng test"
   },
