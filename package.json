@@ -2,11 +2,11 @@
   "name": "my-first-project",
   "version": "0.0.2",
   "scripts": {
-    "ng": "npm node_modules/.bin/ng",
-    "start": "npm node_modules/.bin/ng serve",
+    "ng": "node node_modules/.bin/ng",
+    "start": "node node_modules/.bin/ng serve",
     "build": "npm install ; node node_modules/.bin/ng build",
-    "watch": "npm node_modules/.bin/ng --watch --configuration development",
-    "test": "npm node_modules/.bin/ng test"
+    "watch": "node node_modules/.bin/ng --watch --configuration development",
+    "test": "node node_modules/.bin/ng test"
   },
   "private": true,
   "dependencies": {
